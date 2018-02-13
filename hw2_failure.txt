@@ -1,0 +1,54 @@
+Started by user [8mha:////4El6QqHVEodeZb67HNzgHXjPklNK8f8TADJJ1EzGyi7IAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9lNzUHCMjcwCPeAenwgAAAA==[0mDarin Ellis
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\hw2
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/darin-ellis7/hw2 # timeout=10
+Fetching upstream changes from https://github.com/darin-ellis7/hw2
+ > git.exe --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --progress https://github.com/darin-ellis7/hw2 +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 242e47469eb5df2bb8f6266ab1455b3232adbbb8 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 242e47469eb5df2bb8f6266ab1455b3232adbbb8
+Commit message: "Update TestChronology.java"
+ > git.exe rev-list --no-walk 92d3f5237b70e5f204910cf588547d4176b222b5 # timeout=10
+Parsing POMs
+Established TCP socket on 55250
+[hw2] $ java -cp "C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.5.2\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.5.2/conf/logging" jenkins.maven3.agent.Maven35Main "C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.5.2" "C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.14.jar" "C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar" "C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar" 55250
+<===[JENKINS REMOTING CAPACITY]===>   channel started
+Executing Maven:  -B -f C:\Program Files (x86)\Jenkins\workspace\hw2\pom.xml install
+[INFO] Scanning for projects...
+[8mha:////4KkfuH61AT+vQbSBvpPCC08Y/k9viEu0aI5d1X7mQjDOAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] The project joda-time:joda-time:jar:2.9.9 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Joda-Time 2.9.9
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4Edi/oE3hVLNl3Op/Tjq0NXpwBR44r5Xlu3eMzhtPmiHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ joda-time ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 16 resources
+[INFO] 
+[8mha:////4Edi/oE3hVLNl3Op/Tjq0NXpwBR44r5Xlu3eMzhtPmiHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ joda-time ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 166 source files to C:\Program Files (x86)\Jenkins\workspace\hw2\target\classes
+[8mha:////4KkfuH61AT+vQbSBvpPCC08Y/k9viEu0aI5d1X7mQjDOAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Unable to autodetect 'javac' path, using 'javac' from the environment.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.215 s
+[INFO] Finished at: 2018-02-12T20:49:27-05:00
+[INFO] Final Memory: 12M/31M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Es4zgTv5gQqyDzOE5C2v14D6ocEW+isdSxEGij49/m6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project joda-time: Compilation failure -> [Help 1]
+[8mha:////4Es4zgTv5gQqyDzOE5C2v14D6ocEW+isdSxEGij49/m6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Es4zgTv5gQqyDzOE5C2v14D6ocEW+isdSxEGij49/m6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4Es4zgTv5gQqyDzOE5C2v14D6ocEW+isdSxEGij49/m6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4Es4zgTv5gQqyDzOE5C2v14D6ocEW+isdSxEGij49/m6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Es4zgTv5gQqyDzOE5C2v14D6ocEW+isdSxEGij49/m6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[JENKINS] Archiving C:\Program Files (x86)\Jenkins\workspace\hw2\pom.xml to joda-time/joda-time/2.9.9/joda-time-2.9.9.pom
+[8mha:////4Es4zgTv5gQqyDzOE5C2v14D6ocEW+isdSxEGij49/m6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+channel stopped
+Finished: FAILURE
